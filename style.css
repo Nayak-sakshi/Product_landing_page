@@ -1,0 +1,188 @@
+/* Reset default browser styles */
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  font-style: Sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #f4f4f4;
+  /* margin: 0px 10px;  */
+}
+.logo{
+  font-size: 20px;
+  padding-left: 15px;
+  font-weight: bold;
+  color: #632424;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #632424;
+  font-weight: bold;
+  font-size: 20px;
+  font-style: Epilogue;
+}
+nav ul li a:hover {
+  color: aqua;
+  transition: 0.3s;
+}
+.btn-nav{
+  border: none;
+  background: rgb(199, 196, 196);
+  padding: 10px 10px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-right: 10px;
+  color: #632424;
+}
+button:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+
+/************************** Hero section styles ************************************/
+
+.container {
+  display: flex;
+  padding-left: 5%;
+}
+.card {
+  height: 300px;
+  margin: 50px;
+  box-shadow: 5px 5px 15px rgb(73, 73, 73);
+  overflow: hidden;
+}
+img {
+  height: 300px;
+  width: 310px;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+.intro {
+  height: 70px;
+  width: 310px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 70px;
+  background: rgb(27, 27, 27, 0.5);
+  color: white;
+  transition: 0.5s;
+}
+.h1_card {
+  margin: 10px;
+  font-size: 30px;
+}
+.pwala {
+  font-size: 15px;
+  margin: 10px;
+  visibility: hidden;
+  opacity: 0;
+}
+.card:hover {
+  cursor: pointer;
+}
+.card:hover img {
+  transform: scale(1.1) rotate(-3deg);
+}
+.card:hover .intro {
+  height: 120px;
+  bottom: 115px;
+  background: rgb(132, 132, 132);
+}
+.card:hover .pwala {
+  opacity: 1;
+  visibility: visible;
+}
+.hero {
+  background-image: url("./images/4638.jpg");
+  background-size: 1300px;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.hero-content {
+  text-align: left;
+  color: #632424;
+  /* margin-right: 60%;
+  margin-bottom: 50px; */
+  padding-right: 50%;
+  padding-bottom: 15%;
+}
+.hero-content:hover{
+  transform: scale(1.1) ;
+  cursor: pointer;
+}
+
+.hero-content h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.card-img {
+  height: 300px;
+}
+
+/************************************8 Features section styles ************************8*/
+
+.offer {
+  text-align: center;
+  
+  font-family:Epilogueital;
+}
+
+.features {
+  background-color: #fbfdff;
+  padding: 80px;
+  margin-left: auto;
+}
+
+/********************************* Footer styles ***********************************/
+footer {
+  
+  background-color: #d0d0d1;
+  padding: 20px;
+}
+h5{
+  color: #060606;
+}
